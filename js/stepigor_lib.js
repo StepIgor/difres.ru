@@ -28,6 +28,23 @@ function cancelhtmlspecialchars(str){
 
 
 //проверить, есть ли хотя бы один общий элемент в двух массивах
-function findCommonElements_fast(arr1, arr2) {
+function haveCommonElements(arr1, arr2) {
     return arr1.some(item => arr2.includes(item))
+}
+
+
+// случайное число от min до (max+1)
+function randomInteger(min, max) {
+  let rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
+}
+
+
+//чтение get-параметров
+function read_get() {
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+  vars[key] = value;
+});
+return vars;
 }
