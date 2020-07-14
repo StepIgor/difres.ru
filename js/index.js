@@ -28,14 +28,27 @@ document.addEventListener('keypress',function(e){
     if (document.getElementById('search_textbox').value.replace(/ /g, '') != ''){
       document.getElementById("found").innerHTML = "";
       var counter = 0;
+      var result_found = [];
       var user_query = document.getElementById("search_textbox").value.toLowerCase();
-      user_query = user_query.split(' ');
       search_db.forEach(function(website, i, search_db){
-        if (findCommonElements_fast(website[2], user_query) == true){
-          document.getElementById("found").innerHTML += '<div class="col s12 m12 l12"><a href="https://'+website[1]+'" target="_blank"><div class="card hoverable grey lighten-5" style="cursor:pointer;"><div class="card-content"><span class="card-title">'+website[0]+'</span><span class="grey-text">'+website[1]+'</span></div></div></a></div>';
-          counter += 1;
+        var hits = 0;
+        keywords_page = website[2];
+        website[2].forEach(function(keyword, i, keywords_page){
+          if (user_query.indexOf(keyword) != -1){
+            hits++;
+          }
+        });
+        if (hits != 0){
+          result_found.push([website, hits]);
+          counter++;
         }
       });
+
+      result_found.sort((prev, next) => next[1] - prev[1]);
+      result_found.forEach(function(website, i, result_found){
+        document.getElementById("found").innerHTML += '<div class="col s12 m12 l12"><a href="https://'+website[0][1]+'" target="_blank"><div class="card hoverable grey lighten-5" style="cursor:pointer;"><div class="card-content"><span class="card-title">'+website[0][0]+'</span><span class="grey-text">'+website[0][1]+'</span></div></div></a></div>';
+      });
+
       document.getElementById("total_found_counter").innerHTML = counter;
       document.getElementById('found_block').style.display = "block";
     }
