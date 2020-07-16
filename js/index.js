@@ -54,3 +54,11 @@ document.addEventListener('keypress',function(e){
     }
   }
 });
+
+
+//read get parameter
+if (read_get()['search'] != null){
+  document.getElementById('search_textbox').value = decodeURIComponent(read_get()['search']);
+  let ev = new KeyboardEvent('keypress', {'key':'Enter'});
+  document.dispatchEvent(ev);
+}
