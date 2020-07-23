@@ -11,5 +11,6 @@ search_db = [
   ['Вопросы и ответы | QnA DIFRES.RU', 'qna.difres.ru', ['qna', 'questions', 'answers', 'question', 'answer', 'вопросы', 'ответы', 'вопрос', 'ответ', 'qna.difres.ru']],
   ['Какие команды нужно прописать в консоли для включения bhop на своем сервере CS:GO? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=1', ['cs', 'hop', 'хоп', 'кс', 'вопрос', 'команды', 'консоли']],
   ['Как открыть диспетчер задач в Windows 10? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=2', ['диспетчер', 'задач', 'windows', '10', 'открыть']],
-  ['Как проще запомнить все цвета радуги? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=3', ['цвета', 'радуг', 'запомнить', 'выучить', 'вопрос']]
+  ['Как проще запомнить все цвета радуги? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=3', ['цвета', 'радуг', 'запомнить', 'выучить', 'вопрос']],
+  ['Как выдать себе нож на своем сервере CS:GO? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=4', ['выдать', 'нож', 'cs', 'go', 'кс', 'как']]
 ];
