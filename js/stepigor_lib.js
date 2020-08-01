@@ -48,3 +48,9 @@ var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,k
 });
 return vars;
 }
+
+
+//быстрое обращение к элементу документа
+function eid(id){
+  return document.getElementById(id);
+}

@@ -62,3 +62,9 @@ if (read_get()['search'] != null){
   let ev = new KeyboardEvent('keypress', {'key':'Enter'});
   document.dispatchEvent(ev);
 }
+
+
+//hide results block
+eid('hide_results_but').addEventListener('click', function(e){
+  eid('found_block').style.display = 'none';
+});
