@@ -16,5 +16,7 @@ search_db = [
   ['GWallpapers | Обои в стиле градиент', 'gradientwallpapers.difres.ru', ['градиент', 'обои', 'картинк', 'gradient', 'wallpaper', 'на рабочий стол']],
   ['GWallpapers | JS Store', 'jsstore.difres.ru/product.html?id=4', ['js', 'store', 'wallpaper', 'магазин', 'jsstore.difres.ru']],
   ['Счётчик', 'simplecounter.difres.ru', ['count', 'simple', 'простой', 'счёт', 'счет', 'simplecounter.difres.ru']],
-  ['Счётчик | JS Store', 'jsstore.difres.ru/product.html?id=3', ['count', 'счет', 'счёт', 'js', 'store', 'jsstore.difres.ru']]
+  ['Счётчик | JS Store', 'jsstore.difres.ru/product.html?id=3', ['count', 'счет', 'счёт', 'js', 'store', 'jsstore.difres.ru']],
+  ['Как сделать цветной курсор в последних версиях Windows 10? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=5', ['qna', 'курсор', 'цветной', 'поменять', 'цвет', 'qna.difres.ru']],
+  ['Как подключить JS-файл к HTML-документу? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=6', ['qna', 'js', 'файл', 'как', 'подключить', 'qna.difres.ru', 'html', 'скрипт', 'script']]
 ];
