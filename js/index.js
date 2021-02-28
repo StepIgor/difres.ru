@@ -46,7 +46,8 @@ document.addEventListener('keypress',function(e){
 
       result_found.sort((prev, next) => next[1] - prev[1]);
       result_found.forEach(function(website, i, result_found){
-        document.getElementById("found").innerHTML += '<div class="col s12 m12 l12"><a href="https://'+website[0][1]+'" target="_blank"><div class="card hoverable grey lighten-5" style="cursor:pointer;"><div class="card-content"><span class="card-title">'+website[0][0]+'</span><span class="grey-text">'+website[0][1]+'</span></div></div></a></div>';
+        let icon_url = website[0][1].split("/")[0] + "/favicon.png";
+        document.getElementById("found").innerHTML += '<div class="col s12 m12 l12"><a href="https://'+website[0][1]+'" target="_blank"><div class="card hoverable grey lighten-5" style="cursor:pointer;"><div class="card-content"><span class="card-title"><img src="https://'+icon_url+'" style="width:24px;vertical-align:middle;"> <span style="vertical-align:middle;">'+website[0][0]+'</span></span><span class="grey-text">'+website[0][1]+'</span></div></div></a></div>';
       });
 
       document.getElementById("total_found_counter").innerHTML = counter;
