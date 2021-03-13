@@ -19,5 +19,7 @@ search_db = [
   ['Счётчик | JS Store', 'jsstore.difres.ru/product.html?id=3', ['count', 'счет', 'счёт', 'js', 'store', 'jsstore.difres.ru']],
   ['Как сделать цветной курсор в последних версиях Windows 10? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=5', ['qna', 'курсор', 'цветной', 'поменять', 'цвет', 'qna.difres.ru']],
   ['Как подключить JS-файл к HTML-документу? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=6', ['qna', 'js', 'файл', 'как', 'подключить', 'qna.difres.ru', 'html', 'скрипт', 'script']],
-  ['DIFRES.RU Видео | Видеохостинг', 'video.difres.ru', ['video', 'difres', 'видео', 'hosting', 'хостинг', 'video.difres.ru', 'видеохостинг', 'videohosting', 'videos', 'видеозаписи', 'видосы', 'ролики']]
+  ['DIFRES.RU Видео | Видеохостинг', 'video.difres.ru', ['video', 'difres', 'видео', 'hosting', 'хостинг', 'video.difres.ru', 'видеохостинг', 'videohosting', 'videos', 'видеозаписи', 'видосы', 'ролики']],
+  ['Главная | Расписание', 'schedule.difres.ru', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия']],
+  ['Режим просмотра | Расписание', 'schedule.difres.ru/show.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show']]
 ];
