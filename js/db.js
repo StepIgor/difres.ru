@@ -21,5 +21,6 @@ search_db = [
   ['Как подключить JS-файл к HTML-документу? | QnA DIFRES.RU', 'qna.difres.ru/question.html?id=6', ['qna', 'js', 'файл', 'как', 'подключить', 'qna.difres.ru', 'html', 'скрипт', 'script']],
   ['DIFRES.RU Видео | Видеохостинг', 'video.difres.ru', ['video', 'difres', 'видео', 'hosting', 'хостинг', 'video.difres.ru', 'видеохостинг', 'videohosting', 'videos', 'видеозаписи', 'видосы', 'ролики']],
   ['Главная | Расписание', 'schedule.difres.ru', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия']],
-  ['Режим просмотра | Расписание', 'schedule.difres.ru/show.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show']]
+  ['Режим просмотра | Расписание', 'schedule.difres.ru/show.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show']],
+  ['Экспорт расписания | Расписание', 'schedule.difres.ru/export.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show', 'export', 'экспорт']]
 ];
