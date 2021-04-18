@@ -22,5 +22,6 @@ search_db = [
   ['DIFRES.RU Видео | Видеохостинг', 'video.difres.ru', ['video', 'difres', 'видео', 'hosting', 'хостинг', 'video.difres.ru', 'видеохостинг', 'videohosting', 'videos', 'видеозаписи', 'видосы', 'ролики']],
   ['Главная | Расписание', 'schedule.difres.ru', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия']],
   ['Режим просмотра | Расписание', 'schedule.difres.ru/show.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show']],
-  ['Экспорт расписания | Расписание', 'schedule.difres.ru/export.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show', 'export', 'экспорт']]
+  ['Экспорт расписания | Расписание', 'schedule.difres.ru/export.html', ['расписание', 'schedule', 'schedule.difres.ru', 'пары', 'занятия', 'просмотр', 'открыть', 'show', 'export', 'экспорт']],
+  ['Fortnite highlight | First place (#1) | Видео', 'video.difres.ru/watch.html?video=1', ['video', 'fortnite', 'highlight', 'highlights', 'видео']]
 ];
