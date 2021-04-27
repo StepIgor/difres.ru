@@ -2,11 +2,14 @@
     import {fly, fade} from "svelte/transition"
     import SearchResultBlock from "./SearchResultBlock.svelte"
     import {websites} from "./database"
+    import {read_get} from "./libs";
 
     let visible = false
     let results = []
 
     export function startSearch(query) {
+        if (query == undefined || query.length == 0 || query.replace(/ /g, '').length == 0) return
+        window.history.pushState('1', 'Search', '?search=' + query);
         results = []
         query = query.toLowerCase().split(" ")
         websites.forEach(function (website, i) {

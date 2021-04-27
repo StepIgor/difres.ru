@@ -20,7 +20,7 @@
   }
 
   export function readFromGet(query){
-    searchText = query
+    searchText = query.replace(/%20/g, ' ')
   }
 </script>
 

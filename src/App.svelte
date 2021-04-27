@@ -18,7 +18,7 @@
 
         if (query != undefined && query.length != 0) {
             searchBar.readFromGet(htmlspecialchars(query))
-            searchResultsContainer.startSearch(htmlspecialchars(query))
+            searchResultsContainer.startSearch(htmlspecialchars(query.replace(/%20/g, ' ')))
         }
     })
 </script>
