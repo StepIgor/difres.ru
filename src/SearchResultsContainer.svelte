@@ -2,7 +2,6 @@
     import {fly, fade} from "svelte/transition"
     import SearchResultBlock from "./SearchResultBlock.svelte"
     import {websites} from "./database"
-    import {read_get} from "./libs";
 
     let visible = false
     let results = []

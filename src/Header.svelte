@@ -1,7 +1,6 @@
 <script>
   import {onMount} from 'svelte';
   import {fade, fly} from "svelte/transition"
-  import {htmlspecialchars} from "./libs";
 
   export let username = 'пользователь'
   let visible = false
@@ -14,7 +13,7 @@
 
   function saveNewName(){
     if (newUsername != undefined && newUsername.length != 0 && newUsername.replace(/ /g,'').length != 0){
-      localStorage.setItem('username', htmlspecialchars(newUsername))
+      localStorage.setItem('username', newUsername)
       username = newUsername
       editmode = false
     }

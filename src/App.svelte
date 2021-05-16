@@ -3,7 +3,7 @@
     import SearchBar from "./SearchBar.svelte"
     import SearchResultsContainer from "./SearchResultsContainer.svelte";
     import {onMount} from "svelte";
-    import {read_get, htmlspecialchars} from "./libs";
+    import {read_get} from "./libs";
 
     let username = localStorage.getItem('username')
     let searchResultsContainer
@@ -17,8 +17,8 @@
         let query = read_get()['search']
 
         if (query != undefined && query.length != 0) {
-            searchBar.readFromGet(htmlspecialchars(query))
-            searchResultsContainer.startSearch(htmlspecialchars(query.replace(/%20/g, ' ')))
+            searchBar.readFromGet(query)
+            searchResultsContainer.startSearch(query.replace(/%20/g, ' '))
         }
     })
 </script>
